@@ -1,3 +1,4 @@
 github "Sage-Bionetworks/SageResearch" ~> 3.14
-github "syoung-smallwisdom/BridgeApp-Apple-SDK" "swiftPM"
+github "Sage-Bionetworks/BridgeApp-Apple-SDK" ~> 4.4.1
+github "Sage-Bionetworks/Bridge-iOS-SDK" ~> 4.4.82
 
