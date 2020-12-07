@@ -53,8 +53,7 @@
 
 /* Begin PBXFileReference section */
 		FF2D9062257B138F00439F59 /* CarthageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF2D9073257B139000439F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FF2D907C257B144600439F59 /* CarthageExample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CarthageExample-Bridging-Header.h"; sourceTree = "<group>"; };
+		FF2D9073257B139000439F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../SageResearchCatalog/Info.plist; sourceTree = "<group>"; };
 		FF2D907D257B144600439F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SageResearchCatalog/Assets.xcassets; sourceTree = "<group>"; };
 		FF2D907E257B144600439F59 /* BridgeInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BridgeInfo.plist; path = ../../SageResearchCatalog/BridgeInfo.plist; sourceTree = "<group>"; };
 		FF2D907F257B144600439F59 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../SageResearchCatalog/AppDelegate.swift; sourceTree = "<group>"; };
@@ -118,7 +117,6 @@
 				FF2D9082257B144600439F59 /* sample-study.pem */,
 				FF2D9081257B144600439F59 /* TaskTableViewController.swift */,
 				FF2D9073257B139000439F59 /* Info.plist */,
-				FF2D907C257B144600439F59 /* CarthageExample-Bridging-Header.h */,
 			);
 			path = CarthageExample;
 			sourceTree = "<group>";

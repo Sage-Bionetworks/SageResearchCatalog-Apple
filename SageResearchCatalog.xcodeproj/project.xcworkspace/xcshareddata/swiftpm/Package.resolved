@@ -2,24 +2,6 @@
   "object": {
     "pins": [
       {
-        "package": "BridgeSDK",
-        "repositoryURL": "https://github.com/syoung-smallwisdom/Bridge-iOS-SDK.git",
-        "state": {
-          "branch": "swiftPM",
-          "revision": "99b338558ef473b7208648ed43a4598d135ffa01",
-          "version": null
-        }
-      },
-      {
-        "package": "BridgeApp",
-        "repositoryURL": "https://github.com/syoung-smallwisdom/BridgeApp-Apple-SDK",
-        "state": {
-          "branch": "swiftPM",
-          "revision": "4425f7887396172ee5d62075fab6e2b7bbd044c3",
-          "version": null
-        }
-      },
-      {
         "package": "JsonModel",
         "repositoryURL": "https://github.com/Sage-Bionetworks/JsonModel-Swift.git",
         "state": {
