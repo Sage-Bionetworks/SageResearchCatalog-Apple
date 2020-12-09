@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF1EC1A2257EDB8300C32167 /* BridgeAppUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF1EC1A1257EDB8300C32167 /* BridgeAppUI */; };
+		FF1EC1A4257EDB8300C32167 /* BridgeApp in Frameworks */ = {isa = PBXBuildFile; productRef = FF1EC1A3257EDB8300C32167 /* BridgeApp */; };
 		FF2D8FCF257B0ADF00439F59 /* BridgeInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF2D8FCE257B0ADF00439F59 /* BridgeInfo.plist */; };
 		FF2D8FD2257B0B2400439F59 /* sample-study.pem in Resources */ = {isa = PBXBuildFile; fileRef = FF2D8FD1257B0B2400439F59 /* sample-study.pem */; };
 		FF4A694C257AEDD80087E188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A694B257AEDD80087E188 /* AppDelegate.swift */; };
 		FF4A6953257AEDD80087E188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A6951257AEDD80087E188 /* Main.storyboard */; };
 		FF4A6955257AEDDA0087E188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4A6954257AEDDA0087E188 /* Assets.xcassets */; };
 		FF4A6958257AEDDA0087E188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A6956257AEDDA0087E188 /* LaunchScreen.storyboard */; };
-		FF4A6985257AEF5E0087E188 /* BridgeAppUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF4A6984257AEF5E0087E188 /* BridgeAppUI */; };
-		FF4A6987257AEF5E0087E188 /* BridgeApp in Frameworks */ = {isa = PBXBuildFile; productRef = FF4A6986257AEF5E0087E188 /* BridgeApp */; };
 		FF4A698B257AEFA80087E188 /* Research in Frameworks */ = {isa = PBXBuildFile; productRef = FF4A698A257AEFA80087E188 /* Research */; };
 		FF4A698D257AEFA80087E188 /* ResearchUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF4A698C257AEFA80087E188 /* ResearchUI */; };
 		FF4A69D2257AF1CA0087E188 /* ExternalIDRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A69D0257AF1CA0087E188 /* ExternalIDRegistrationViewController.swift */; };
@@ -39,10 +39,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF4A6985257AEF5E0087E188 /* BridgeAppUI in Frameworks */,
 				FF4A698D257AEFA80087E188 /* ResearchUI in Frameworks */,
 				FF4A698B257AEFA80087E188 /* Research in Frameworks */,
-				FF4A6987257AEF5E0087E188 /* BridgeApp in Frameworks */,
+				FF1EC1A2257EDB8300C32167 /* BridgeAppUI in Frameworks */,
+				FF1EC1A4257EDB8300C32167 /* BridgeApp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,10 +98,10 @@
 			);
 			name = SageResearchCatalog;
 			packageProductDependencies = (
-				FF4A6984257AEF5E0087E188 /* BridgeAppUI */,
-				FF4A6986257AEF5E0087E188 /* BridgeApp */,
 				FF4A698A257AEFA80087E188 /* Research */,
 				FF4A698C257AEFA80087E188 /* ResearchUI */,
+				FF1EC1A1257EDB8300C32167 /* BridgeAppUI */,
+				FF1EC1A3257EDB8300C32167 /* BridgeApp */,
 			);
 			productName = SageResearchCatalog;
 			productReference = FF4A6948257AEDD80087E188 /* SageResearchCatalog.app */;
@@ -131,8 +131,8 @@
 			);
 			mainGroup = FF4A693F257AEDD80087E188;
 			packageReferences = (
-				FF4A6983257AEF5E0087E188 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */,
 				FF4A6989257AEFA80087E188 /* XCRemoteSwiftPackageReference "SageResearch" */,
+				FF1EC1A0257EDB8300C32167 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */,
 			);
 			productRefGroup = FF4A6949257AEDD80087E188 /* Products */;
 			projectDirPath = "";
@@ -225,7 +225,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -288,7 +288,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 10;
+				CURRENT_PROJECT_VERSION = 14;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -379,12 +379,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		FF4A6983257AEF5E0087E188 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */ = {
+		FF1EC1A0257EDB8300C32167 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/syoung-smallwisdom/BridgeApp-Apple-SDK";
+			repositoryURL = "https://github.com/Sage-Bionetworks/BridgeApp-Apple-SDK.git";
 			requirement = {
-				branch = swiftPM;
-				kind = branch;
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
 			};
 		};
 		FF4A6989257AEFA80087E188 /* XCRemoteSwiftPackageReference "SageResearch" */ = {
@@ -398,14 +398,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		FF4A6984257AEF5E0087E188 /* BridgeAppUI */ = {
+		FF1EC1A1257EDB8300C32167 /* BridgeAppUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FF4A6983257AEF5E0087E188 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */;
+			package = FF1EC1A0257EDB8300C32167 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */;
 			productName = BridgeAppUI;
 		};
-		FF4A6986257AEF5E0087E188 /* BridgeApp */ = {
+		FF1EC1A3257EDB8300C32167 /* BridgeApp */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = FF4A6983257AEF5E0087E188 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */;
+			package = FF1EC1A0257EDB8300C32167 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */;
 			productName = BridgeApp;
 		};
 		FF4A698A257AEFA80087E188 /* Research */ = {

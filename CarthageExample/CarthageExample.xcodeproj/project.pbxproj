@@ -52,6 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		FF1EC29C257F06F800C32167 /* openssl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = openssl.xcframework; path = "../Carthage/Checkouts/Bridge-iOS-SDK/Submodules/CMSSupport/openssl/build/openssl.xcframework"; sourceTree = "<group>"; };
 		FF2D9062257B138F00439F59 /* CarthageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2D9073257B139000439F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../SageResearchCatalog/Info.plist; sourceTree = "<group>"; };
 		FF2D907D257B144600439F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SageResearchCatalog/Assets.xcassets; sourceTree = "<group>"; };
@@ -141,6 +142,7 @@
 				FF2D90C1257B150100439F59 /* Formatters.framework */,
 				FF2D90C2257B150100439F59 /* Research.framework */,
 				FF2D90C3257B150100439F59 /* ResearchUI.framework */,
+				FF1EC29C257F06F800C32167 /* openssl.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
