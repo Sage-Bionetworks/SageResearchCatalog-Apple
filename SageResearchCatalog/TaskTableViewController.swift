@@ -40,37 +40,37 @@ import ResearchUI
 
 class TaskTableViewController: UITableViewController {
 
-	let scheduleManager = SBAScheduleManager()
+    let scheduleManager = SBAScheduleManager()
     var sortedScheduleActivities : [SBBScheduledActivity] = []
 	
-	@IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
-	@IBOutlet weak var appNameLabel: UILabel!
-	@IBOutlet weak var appVersionLabel: UILabel!
-	@IBOutlet weak var iconImageView: UIImageView!
+    @IBOutlet weak var activityIndicatorView: UIActivityIndicatorView!
+    @IBOutlet weak var appNameLabel: UILabel!
+    @IBOutlet weak var appVersionLabel: UILabel!
+    @IBOutlet weak var iconImageView: UIImageView!
 	
-	override func viewDidLoad() {
-		super.viewDidLoad()
-		
-		// Use automatic hieght dimension
-		tableView.rowHeight = UITableView.automaticDimension
-		tableView.separatorStyle = .singleLine
-		tableView.register(UITableViewCell.self, forCellReuseIdentifier: "DefaultCell")
+    override func viewDidLoad() {
+        super.viewDidLoad()
         
+        // Use automatic hieght dimension
+        tableView.rowHeight = UITableView.automaticDimension
+        tableView.separatorStyle = .singleLine
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "DefaultCell")
+
         NotificationCenter.default.addObserver(forName: .SBAUpdatedScheduledActivities,
-                                               object: nil,
-                                               queue: OperationQueue.main) {(_) in
-                                                self.loadUpdatedActivities()
+                                           object: nil,
+                                           queue: OperationQueue.main) {(_) in
+                                            self.loadUpdatedActivities()
         }
-		NotificationCenter.default.addObserver(forName: .SBAFinishedUpdatingScheduleCache,
-											   object: nil,
-											   queue: OperationQueue.main) {(_) in
-                                                self.scheduleManager.reloadData()
-		}
+        NotificationCenter.default.addObserver(forName: .SBAFinishedUpdatingScheduleCache,
+                                           object: nil,
+                                           queue: OperationQueue.main) {(_) in
+                                            self.scheduleManager.reloadData()
+        }
         self.scheduleManager.reloadData()
-		
+
         self.appNameLabel.text = Bundle.main.appName()
         self.appVersionLabel.text = "Version \(Bundle.main.appVersion())"
-	}
+    }
 
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
@@ -81,7 +81,7 @@ class TaskTableViewController: UITableViewController {
             var headerFrame = headerView.frame
 
             // If we don't have this check, viewDidLayoutSubviews() will get
-            // repeatedly, causing the app to hang.
+            // repeatedly called, causing the app to hang.
             if height != headerFrame.size.height {
                 headerFrame.size.height = height
                 headerView.frame = headerFrame
@@ -92,17 +92,17 @@ class TaskTableViewController: UITableViewController {
 
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        
-        //reset app orientation to default orientation
+
+        //Reset app orientation to default orientation
         SBAAppDelegate.shared?.orientationLock = SBAAppDelegate.shared?.defaultOrientationLock
-        
+
         self.sortedScheduleActivities = self.sortedActivities(activities: self.scheduleManager.scheduledActivities)
 		
-		//Show activity indicator if there are no activities yet
+        //Show activity indicator if there are no activities yet
         if self.sortedScheduleActivities.count == 0 {
-			self.activityIndicatorView.isHidden = false
-			self.activityIndicatorView.startAnimating()
-		}
+            self.activityIndicatorView.isHidden = false
+            self.activityIndicatorView.startAnimating()
+        }
     }
 
     func sortedActivities(activities : [SBBScheduledActivity]) -> [SBBScheduledActivity] {
@@ -110,16 +110,16 @@ class TaskTableViewController: UITableViewController {
     }
 	
 	//Activity list has been updated
-	func loadUpdatedActivities() {
-		self.sortedScheduleActivities = self.sortedActivities(activities: self.scheduleManager.scheduledActivities)
+    func loadUpdatedActivities() {
+        self.sortedScheduleActivities = self.sortedActivities(activities: self.scheduleManager.scheduledActivities)
         self.loadActivities()
-	}
+    }
 	
 	//Update activity list or run the task if it's the only one
     func loadActivities() {
-		self.activityIndicatorView.stopAnimating()
-		//Should always update the table with the latest information
-		self.tableView.reloadData()
+        self.activityIndicatorView.stopAnimating()
+        //Should always update the table with the latest information
+        self.tableView.reloadData()
 	}
     
     func loadTask(at indexPathRow:Int) {
@@ -178,17 +178,16 @@ class TaskTableViewController: UITableViewController {
 
 extension TaskTableViewController: RSDTaskViewControllerDelegate {
     
-	func taskController(_ taskController: RSDTaskController, didFinishWith reason: RSDTaskFinishReason, error: Error?) {
+    func taskController(_ taskController: RSDTaskController, didFinishWith reason: RSDTaskFinishReason, error: Error?) {
         self.scheduleManager.taskController(taskController, didFinishWith: reason, error: error)
         (taskController as? UIViewController)?.dismiss(animated: true, completion: {
-            
             if let err = error {
                 self.presentAlertWithOk(title: "Task failed", message: "\(err)", actionHandler: nil)
             }
-		})
-	}
+        })
+    }
 
-	func taskController(_ taskController: RSDTaskController, readyToSave taskViewModel: RSDTaskViewModel) {
-		self.scheduleManager.taskController(taskController, readyToSave: taskViewModel)
-	}
+    func taskController(_ taskController: RSDTaskController, readyToSave taskViewModel: RSDTaskViewModel) {
+        self.scheduleManager.taskController(taskController, readyToSave: taskViewModel)
+    }
 }

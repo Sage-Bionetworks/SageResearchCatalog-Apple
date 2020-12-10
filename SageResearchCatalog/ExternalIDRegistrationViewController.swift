@@ -109,9 +109,6 @@ class ExternalIDRegistrationViewController: RSDTableStepViewController {
         print("self.stepViewModel.taskResult=\(self.stepViewModel.taskResult)")
         
         let stepResult = self.stepViewModel.findStepResult()
-        
-        //print("self.stepViewModel.value=\((stepResult as? AnswerResult)?.value)")
-        
         guard let answerResult = stepResult as? AnswerResult,
               let value = answerResult.value,
               let externalId = value as? String
