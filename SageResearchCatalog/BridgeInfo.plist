@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>studyIdentifier</key>
+	<string>sample-study</string>
+	<key>certificateName</key>
+	<string>sample-study</string>
+	<key>cacheDaysAhead</key>
+	<integer>30</integer>
+	<key>cacheDaysBehind</key>
+	<integer>30</integer>
+</dict>
+</plist>

@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF1EC1A2257EDB8300C32167 /* BridgeAppUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF1EC1A1257EDB8300C32167 /* BridgeAppUI */; };
+		FF1EC1A4257EDB8300C32167 /* BridgeApp in Frameworks */ = {isa = PBXBuildFile; productRef = FF1EC1A3257EDB8300C32167 /* BridgeApp */; };
+		FF2D8FCF257B0ADF00439F59 /* BridgeInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = FF2D8FCE257B0ADF00439F59 /* BridgeInfo.plist */; };
+		FF2D8FD2257B0B2400439F59 /* sample-study.pem in Resources */ = {isa = PBXBuildFile; fileRef = FF2D8FD1257B0B2400439F59 /* sample-study.pem */; };
+		FF4A694C257AEDD80087E188 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A694B257AEDD80087E188 /* AppDelegate.swift */; };
+		FF4A6953257AEDD80087E188 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A6951257AEDD80087E188 /* Main.storyboard */; };
+		FF4A6955257AEDDA0087E188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF4A6954257AEDDA0087E188 /* Assets.xcassets */; };
+		FF4A6958257AEDDA0087E188 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF4A6956257AEDDA0087E188 /* LaunchScreen.storyboard */; };
+		FF4A698B257AEFA80087E188 /* Research in Frameworks */ = {isa = PBXBuildFile; productRef = FF4A698A257AEFA80087E188 /* Research */; };
+		FF4A698D257AEFA80087E188 /* ResearchUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF4A698C257AEFA80087E188 /* ResearchUI */; };
+		FF4A69D2257AF1CA0087E188 /* ExternalIDRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A69D0257AF1CA0087E188 /* ExternalIDRegistrationViewController.swift */; };
+		FF4A69D3257AF1CA0087E188 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A69D1257AF1CA0087E188 /* TaskTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF2D8FCE257B0ADF00439F59 /* BridgeInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BridgeInfo.plist; sourceTree = "<group>"; };
+		FF2D8FD1257B0B2400439F59 /* sample-study.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-study.pem"; sourceTree = "<group>"; };
+		FF4A6948257AEDD80087E188 /* SageResearchCatalog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SageResearchCatalog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF4A694B257AEDD80087E188 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF4A6952257AEDD80087E188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF4A6954257AEDDA0087E188 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF4A6957257AEDDA0087E188 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF4A6959257AEDDA0087E188 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF4A69D0257AF1CA0087E188 /* ExternalIDRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalIDRegistrationViewController.swift; sourceTree = "<group>"; };
+		FF4A69D1257AF1CA0087E188 /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF4A6945257AEDD80087E188 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4A698D257AEFA80087E188 /* ResearchUI in Frameworks */,
+				FF4A698B257AEFA80087E188 /* Research in Frameworks */,
+				FF1EC1A2257EDB8300C32167 /* BridgeAppUI in Frameworks */,
+				FF1EC1A4257EDB8300C32167 /* BridgeApp in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF4A693F257AEDD80087E188 = {
+			isa = PBXGroup;
+			children = (
+				FF4A694A257AEDD80087E188 /* SageResearchCatalog */,
+				FF4A6949257AEDD80087E188 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF4A6949257AEDD80087E188 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A6948257AEDD80087E188 /* SageResearchCatalog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF4A694A257AEDD80087E188 /* SageResearchCatalog */ = {
+			isa = PBXGroup;
+			children = (
+				FF4A694B257AEDD80087E188 /* AppDelegate.swift */,
+				FF4A69D0257AF1CA0087E188 /* ExternalIDRegistrationViewController.swift */,
+				FF4A69D1257AF1CA0087E188 /* TaskTableViewController.swift */,
+				FF4A6951257AEDD80087E188 /* Main.storyboard */,
+				FF4A6954257AEDDA0087E188 /* Assets.xcassets */,
+				FF4A6956257AEDDA0087E188 /* LaunchScreen.storyboard */,
+				FF2D8FCE257B0ADF00439F59 /* BridgeInfo.plist */,
+				FF2D8FD1257B0B2400439F59 /* sample-study.pem */,
+				FF4A6959257AEDDA0087E188 /* Info.plist */,
+			);
+			path = SageResearchCatalog;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF4A6947257AEDD80087E188 /* SageResearchCatalog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF4A695C257AEDDA0087E188 /* Build configuration list for PBXNativeTarget "SageResearchCatalog" */;
+			buildPhases = (
+				FF4A6944257AEDD80087E188 /* Sources */,
+				FF4A6945257AEDD80087E188 /* Frameworks */,
+				FF4A6946257AEDD80087E188 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SageResearchCatalog;
+			packageProductDependencies = (
+				FF4A698A257AEFA80087E188 /* Research */,
+				FF4A698C257AEFA80087E188 /* ResearchUI */,
+				FF1EC1A1257EDB8300C32167 /* BridgeAppUI */,
+				FF1EC1A3257EDB8300C32167 /* BridgeApp */,
+			);
+			productName = SageResearchCatalog;
+			productReference = FF4A6948257AEDD80087E188 /* SageResearchCatalog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF4A6940257AEDD80087E188 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					FF4A6947257AEDD80087E188 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = FF4A6943257AEDD80087E188 /* Build configuration list for PBXProject "SageResearchCatalog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF4A693F257AEDD80087E188;
+			packageReferences = (
+				FF4A6989257AEFA80087E188 /* XCRemoteSwiftPackageReference "SageResearch" */,
+				FF1EC1A0257EDB8300C32167 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */,
+			);
+			productRefGroup = FF4A6949257AEDD80087E188 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF4A6947257AEDD80087E188 /* SageResearchCatalog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF4A6946257AEDD80087E188 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4A6958257AEDDA0087E188 /* LaunchScreen.storyboard in Resources */,
+				FF4A6955257AEDDA0087E188 /* Assets.xcassets in Resources */,
+				FF4A6953257AEDD80087E188 /* Main.storyboard in Resources */,
+				FF2D8FCF257B0ADF00439F59 /* BridgeInfo.plist in Resources */,
+				FF2D8FD2257B0B2400439F59 /* sample-study.pem in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF4A6944257AEDD80087E188 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF4A69D3257AF1CA0087E188 /* TaskTableViewController.swift in Sources */,
+				FF4A694C257AEDD80087E188 /* AppDelegate.swift in Sources */,
+				FF4A69D2257AF1CA0087E188 /* ExternalIDRegistrationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF4A6951257AEDD80087E188 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4A6952257AEDD80087E188 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF4A6956257AEDDA0087E188 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF4A6957257AEDDA0087E188 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF4A695A257AEDDA0087E188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 16;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF4A695B257AEDDA0087E188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 16;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF4A695D257AEDDA0087E188 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KA9Z8R6M6K;
+				INFOPLIST_FILE = SageResearchCatalog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.sagebase.SageResearchCatalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Development org.sagebase.SageResearchCatalog";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF4A695E257AEDDA0087E188 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = KA9Z8R6M6K;
+				INFOPLIST_FILE = SageResearchCatalog/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.sagebase.SageResearchCatalog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "match Distribute org.sagebase.SageResearchCatalog";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF4A6943257AEDD80087E188 /* Build configuration list for PBXProject "SageResearchCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4A695A257AEDDA0087E188 /* Debug */,
+				FF4A695B257AEDDA0087E188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF4A695C257AEDDA0087E188 /* Build configuration list for PBXNativeTarget "SageResearchCatalog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF4A695D257AEDDA0087E188 /* Debug */,
+				FF4A695E257AEDDA0087E188 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FF1EC1A0257EDB8300C32167 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sage-Bionetworks/BridgeApp-Apple-SDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.3;
+			};
+		};
+		FF4A6989257AEFA80087E188 /* XCRemoteSwiftPackageReference "SageResearch" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sage-Bionetworks/SageResearch.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.14.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FF1EC1A1257EDB8300C32167 /* BridgeAppUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF1EC1A0257EDB8300C32167 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */;
+			productName = BridgeAppUI;
+		};
+		FF1EC1A3257EDB8300C32167 /* BridgeApp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF1EC1A0257EDB8300C32167 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */;
+			productName = BridgeApp;
+		};
+		FF4A698A257AEFA80087E188 /* Research */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF4A6989257AEFA80087E188 /* XCRemoteSwiftPackageReference "SageResearch" */;
+			productName = Research;
+		};
+		FF4A698C257AEFA80087E188 /* ResearchUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FF4A6989257AEFA80087E188 /* XCRemoteSwiftPackageReference "SageResearch" */;
+			productName = ResearchUI;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FF4A6940257AEDD80087E188 /* Project object */;
+}
