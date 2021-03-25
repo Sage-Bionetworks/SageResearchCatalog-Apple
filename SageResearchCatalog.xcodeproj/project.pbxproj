@@ -384,7 +384,7 @@
 			repositoryURL = "https://github.com/Sage-Bionetworks/BridgeApp-Apple-SDK.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 4.4.3;
+				minimumVersion = 5.1.0;
 			};
 		};
 		FF4A6989257AEFA80087E188 /* XCRemoteSwiftPackageReference "SageResearch" */ = {
@@ -392,7 +392,7 @@
 			repositoryURL = "https://github.com/Sage-Bionetworks/SageResearch.git";
 			requirement = {
 				kind = upToNextMajorVersion;
-				minimumVersion = 3.14.0;
+				minimumVersion = 4.1.0;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */

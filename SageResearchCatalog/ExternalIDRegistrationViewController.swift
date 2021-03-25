@@ -34,6 +34,7 @@
 import UIKit
 import ResearchUI
 import Research
+import JsonModel
 import BridgeSDK
 import BridgeApp
 
@@ -68,7 +69,7 @@ class ExternalIDRegistrationStep : SimpleQuestion, QuestionStep, RSDStepViewCont
         return input
     }()
     
-    func instantiateStepResult() -> RSDResult {
+    func instantiateStepResult() -> ResultData {
         AnswerResultObject(identifier: self.identifier, answerType: AnswerTypeString())
     }
     

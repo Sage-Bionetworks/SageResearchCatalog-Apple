@@ -21,8 +21,6 @@
 		FF2D90C7257B150100439F59 /* BridgeAppUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90BE257B150100439F59 /* BridgeAppUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF2D90C8257B150100439F59 /* BridgeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90BF257B150100439F59 /* BridgeSDK.framework */; };
 		FF2D90C9257B150100439F59 /* BridgeSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90BF257B150100439F59 /* BridgeSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		FF2D90CA257B150100439F59 /* ExceptionHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90C0257B150100439F59 /* ExceptionHandler.framework */; };
-		FF2D90CB257B150100439F59 /* ExceptionHandler.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90C0257B150100439F59 /* ExceptionHandler.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF2D90CC257B150100439F59 /* Formatters.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90C1257B150100439F59 /* Formatters.framework */; };
 		FF2D90CD257B150100439F59 /* Formatters.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90C1257B150100439F59 /* Formatters.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF2D90CE257B150100439F59 /* Research.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90C2257B150100439F59 /* Research.framework */; };
@@ -44,7 +42,6 @@
 				FF2D90C7257B150100439F59 /* BridgeAppUI.framework in Embed Frameworks */,
 				FF2D90CD257B150100439F59 /* Formatters.framework in Embed Frameworks */,
 				FF2D90C9257B150100439F59 /* BridgeSDK.framework in Embed Frameworks */,
-				FF2D90CB257B150100439F59 /* ExceptionHandler.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -54,13 +51,13 @@
 /* Begin PBXFileReference section */
 		FF1EC29C257F06F800C32167 /* openssl.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = openssl.xcframework; path = "../Carthage/Checkouts/Bridge-iOS-SDK/Submodules/CMSSupport/openssl/build/openssl.xcframework"; sourceTree = "<group>"; };
 		FF2D9062257B138F00439F59 /* CarthageExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarthageExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FF2D9073257B139000439F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../SageResearchCatalog/Info.plist; sourceTree = "<group>"; };
-		FF2D907D257B144600439F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../SageResearchCatalog/Assets.xcassets; sourceTree = "<group>"; };
-		FF2D907E257B144600439F59 /* BridgeInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = BridgeInfo.plist; path = ../../SageResearchCatalog/BridgeInfo.plist; sourceTree = "<group>"; };
-		FF2D907F257B144600439F59 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../SageResearchCatalog/AppDelegate.swift; sourceTree = "<group>"; };
-		FF2D9080257B144600439F59 /* ExternalIDRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ExternalIDRegistrationViewController.swift; path = ../../SageResearchCatalog/ExternalIDRegistrationViewController.swift; sourceTree = "<group>"; };
-		FF2D9081257B144600439F59 /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskTableViewController.swift; path = ../../SageResearchCatalog/TaskTableViewController.swift; sourceTree = "<group>"; };
-		FF2D9082257B144600439F59 /* sample-study.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "sample-study.pem"; path = "../../SageResearchCatalog/sample-study.pem"; sourceTree = "<group>"; };
+		FF2D9073257B139000439F59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF2D907D257B144600439F59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF2D907E257B144600439F59 /* BridgeInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = BridgeInfo.plist; sourceTree = "<group>"; };
+		FF2D907F257B144600439F59 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF2D9080257B144600439F59 /* ExternalIDRegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExternalIDRegistrationViewController.swift; sourceTree = "<group>"; };
+		FF2D9081257B144600439F59 /* TaskTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewController.swift; sourceTree = "<group>"; };
+		FF2D9082257B144600439F59 /* sample-study.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "sample-study.pem"; sourceTree = "<group>"; };
 		FF2D9085257B144600439F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FF2D9087257B144600439F59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
 		FF2D90BD257B150100439F59 /* BridgeApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = BridgeApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,7 +80,6 @@
 				FF2D90C6257B150100439F59 /* BridgeAppUI.framework in Frameworks */,
 				FF2D90CC257B150100439F59 /* Formatters.framework in Frameworks */,
 				FF2D90C8257B150100439F59 /* BridgeSDK.framework in Frameworks */,
-				FF2D90CA257B150100439F59 /* ExceptionHandler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,7 +115,8 @@
 				FF2D9081257B144600439F59 /* TaskTableViewController.swift */,
 				FF2D9073257B139000439F59 /* Info.plist */,
 			);
-			path = CarthageExample;
+			name = CarthageExample;
+			path = ../SageResearchCatalog;
 			sourceTree = "<group>";
 		};
 		FF2D9083257B144600439F59 /* Base.lproj */ = {
@@ -128,8 +125,7 @@
 				FF2D9084257B144600439F59 /* LaunchScreen.storyboard */,
 				FF2D9086257B144600439F59 /* Main.storyboard */,
 			);
-			name = Base.lproj;
-			path = ../../SageResearchCatalog/Base.lproj;
+			path = Base.lproj;
 			sourceTree = "<group>";
 		};
 		FF2D90BC257B150100439F59 /* Frameworks */ = {
