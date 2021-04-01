@@ -27,6 +27,12 @@
 		FF2D90CF257B150100439F59 /* Research.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90C2257B150100439F59 /* Research.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF2D90D0257B150100439F59 /* ResearchUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90C3257B150100439F59 /* ResearchUI.framework */; };
 		FF2D90D1257B150100439F59 /* ResearchUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2D90C3257B150100439F59 /* ResearchUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFE911A52615483500DE1444 /* CardiorespiratoryFitness.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE911A22615483500DE1444 /* CardiorespiratoryFitness.framework */; };
+		FFE911A62615483500DE1444 /* CardiorespiratoryFitness.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFE911A22615483500DE1444 /* CardiorespiratoryFitness.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFE911A72615483500DE1444 /* CardiorespiratoryFitnessObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE911A32615483500DE1444 /* CardiorespiratoryFitnessObjC.framework */; };
+		FFE911A82615483500DE1444 /* CardiorespiratoryFitnessObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFE911A32615483500DE1444 /* CardiorespiratoryFitnessObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FFE911A92615483500DE1444 /* MotorControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFE911A42615483500DE1444 /* MotorControl.framework */; };
+		FFE911AA2615483500DE1444 /* MotorControl.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FFE911A42615483500DE1444 /* MotorControl.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -38,10 +44,13 @@
 			files = (
 				FF2D90C5257B150100439F59 /* BridgeApp.framework in Embed Frameworks */,
 				FF2D90D1257B150100439F59 /* ResearchUI.framework in Embed Frameworks */,
+				FFE911A82615483500DE1444 /* CardiorespiratoryFitnessObjC.framework in Embed Frameworks */,
+				FFE911AA2615483500DE1444 /* MotorControl.framework in Embed Frameworks */,
 				FF2D90CF257B150100439F59 /* Research.framework in Embed Frameworks */,
 				FF2D90C7257B150100439F59 /* BridgeAppUI.framework in Embed Frameworks */,
 				FF2D90CD257B150100439F59 /* Formatters.framework in Embed Frameworks */,
 				FF2D90C9257B150100439F59 /* BridgeSDK.framework in Embed Frameworks */,
+				FFE911A62615483500DE1444 /* CardiorespiratoryFitness.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -67,6 +76,9 @@
 		FF2D90C1257B150100439F59 /* Formatters.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Formatters.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2D90C2257B150100439F59 /* Research.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Research.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF2D90C3257B150100439F59 /* ResearchUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ResearchUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE911A22615483500DE1444 /* CardiorespiratoryFitness.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CardiorespiratoryFitness.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE911A32615483500DE1444 /* CardiorespiratoryFitnessObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = CardiorespiratoryFitnessObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE911A42615483500DE1444 /* MotorControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = MotorControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +88,13 @@
 			files = (
 				FF2D90C4257B150100439F59 /* BridgeApp.framework in Frameworks */,
 				FF2D90D0257B150100439F59 /* ResearchUI.framework in Frameworks */,
+				FFE911A72615483500DE1444 /* CardiorespiratoryFitnessObjC.framework in Frameworks */,
+				FFE911A92615483500DE1444 /* MotorControl.framework in Frameworks */,
 				FF2D90CE257B150100439F59 /* Research.framework in Frameworks */,
 				FF2D90C6257B150100439F59 /* BridgeAppUI.framework in Frameworks */,
 				FF2D90CC257B150100439F59 /* Formatters.framework in Frameworks */,
 				FF2D90C8257B150100439F59 /* BridgeSDK.framework in Frameworks */,
+				FFE911A52615483500DE1444 /* CardiorespiratoryFitness.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +146,9 @@
 		FF2D90BC257B150100439F59 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FFE911A22615483500DE1444 /* CardiorespiratoryFitness.framework */,
+				FFE911A32615483500DE1444 /* CardiorespiratoryFitnessObjC.framework */,
+				FFE911A42615483500DE1444 /* MotorControl.framework */,
 				FF2D90BD257B150100439F59 /* BridgeApp.framework */,
 				FF2D90BE257B150100439F59 /* BridgeAppUI.framework */,
 				FF2D90BF257B150100439F59 /* BridgeSDK.framework */,
