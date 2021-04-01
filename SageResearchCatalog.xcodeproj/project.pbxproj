@@ -19,6 +19,8 @@
 		FF4A698D257AEFA80087E188 /* ResearchUI in Frameworks */ = {isa = PBXBuildFile; productRef = FF4A698C257AEFA80087E188 /* ResearchUI */; };
 		FF4A69D2257AF1CA0087E188 /* ExternalIDRegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A69D0257AF1CA0087E188 /* ExternalIDRegistrationViewController.swift */; };
 		FF4A69D3257AF1CA0087E188 /* TaskTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4A69D1257AF1CA0087E188 /* TaskTableViewController.swift */; };
+		FFF5666F2615198A00ABD627 /* MotorControl in Frameworks */ = {isa = PBXBuildFile; productRef = FFF5666E2615198A00ABD627 /* MotorControl */; };
+		FFF5668226153F1800ABD627 /* CardiorespiratoryFitness in Frameworks */ = {isa = PBXBuildFile; productRef = FFF5668126153F1800ABD627 /* CardiorespiratoryFitness */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,9 +41,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFF5666F2615198A00ABD627 /* MotorControl in Frameworks */,
 				FF4A698D257AEFA80087E188 /* ResearchUI in Frameworks */,
 				FF4A698B257AEFA80087E188 /* Research in Frameworks */,
 				FF1EC1A2257EDB8300C32167 /* BridgeAppUI in Frameworks */,
+				FFF5668226153F1800ABD627 /* CardiorespiratoryFitness in Frameworks */,
 				FF1EC1A4257EDB8300C32167 /* BridgeApp in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -102,6 +106,8 @@
 				FF4A698C257AEFA80087E188 /* ResearchUI */,
 				FF1EC1A1257EDB8300C32167 /* BridgeAppUI */,
 				FF1EC1A3257EDB8300C32167 /* BridgeApp */,
+				FFF5666E2615198A00ABD627 /* MotorControl */,
+				FFF5668126153F1800ABD627 /* CardiorespiratoryFitness */,
 			);
 			productName = SageResearchCatalog;
 			productReference = FF4A6948257AEDD80087E188 /* SageResearchCatalog.app */;
@@ -133,6 +139,8 @@
 			packageReferences = (
 				FF4A6989257AEFA80087E188 /* XCRemoteSwiftPackageReference "SageResearch" */,
 				FF1EC1A0257EDB8300C32167 /* XCRemoteSwiftPackageReference "BridgeApp-Apple-SDK" */,
+				FFF5666D2615198A00ABD627 /* XCRemoteSwiftPackageReference "MotorControl-iOS" */,
+				FFF5668026153F1800ABD627 /* XCRemoteSwiftPackageReference "CardiorespiratoryFitness-iOS" */,
 			);
 			productRefGroup = FF4A6949257AEDD80087E188 /* Products */;
 			projectDirPath = "";
@@ -395,6 +403,22 @@
 				minimumVersion = 4.1.0;
 			};
 		};
+		FFF5666D2615198A00ABD627 /* XCRemoteSwiftPackageReference "MotorControl-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sage-Bionetworks/MotorControl-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
+		FFF5668026153F1800ABD627 /* XCRemoteSwiftPackageReference "CardiorespiratoryFitness-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Sage-Bionetworks/CardiorespiratoryFitness-iOS.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -417,6 +441,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = FF4A6989257AEFA80087E188 /* XCRemoteSwiftPackageReference "SageResearch" */;
 			productName = ResearchUI;
+		};
+		FFF5666E2615198A00ABD627 /* MotorControl */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFF5666D2615198A00ABD627 /* XCRemoteSwiftPackageReference "MotorControl-iOS" */;
+			productName = MotorControl;
+		};
+		FFF5668126153F1800ABD627 /* CardiorespiratoryFitness */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FFF5668026153F1800ABD627 /* XCRemoteSwiftPackageReference "CardiorespiratoryFitness-iOS" */;
+			productName = CardiorespiratoryFitness;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

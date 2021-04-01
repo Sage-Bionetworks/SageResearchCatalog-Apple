@@ -20,6 +20,15 @@
         }
       },
       {
+        "package": "CardiorespiratoryFitness",
+        "repositoryURL": "https://github.com/Sage-Bionetworks/CardiorespiratoryFitness-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "b1b321c4645856cc8a23fb4b138cc5ddf072a334",
+          "version": "3.1.0"
+        }
+      },
+      {
         "package": "JsonModel",
         "repositoryURL": "https://github.com/Sage-Bionetworks/JsonModel-Swift.git",
         "state": {
@@ -35,6 +44,15 @@
           "branch": null,
           "revision": "6b8b0205e226ec25960f1369db107665334e0d34",
           "version": "1.0.0"
+        }
+      },
+      {
+        "package": "MotorControl",
+        "repositoryURL": "https://github.com/Sage-Bionetworks/MotorControl-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "d171cd07daed23a23f4d0c3342cc5a7b2847c02d",
+          "version": "3.1.0"
         }
       },
       {
