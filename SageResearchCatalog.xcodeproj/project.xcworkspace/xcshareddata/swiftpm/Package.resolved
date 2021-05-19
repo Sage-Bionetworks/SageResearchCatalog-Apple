@@ -15,8 +15,17 @@
         "repositoryURL": "https://github.com/Sage-Bionetworks/BridgeApp-Apple-SDK.git",
         "state": {
           "branch": null,
-          "revision": "b400bef0975b9202b037360c2526c2905e18a1d7",
-          "version": "4.4.3"
+          "revision": "df495333d92e50dd784b52d4092b37112bea9b3f",
+          "version": "5.1.3"
+        }
+      },
+      {
+        "package": "CardiorespiratoryFitness",
+        "repositoryURL": "https://github.com/Sage-Bionetworks/CardiorespiratoryFitness-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "b1b321c4645856cc8a23fb4b138cc5ddf072a334",
+          "version": "3.1.0"
         }
       },
       {
@@ -24,8 +33,26 @@
         "repositoryURL": "https://github.com/Sage-Bionetworks/JsonModel-Swift.git",
         "state": {
           "branch": null,
-          "revision": "9237442bd2ea208554e01041feaa2d4a065d61a4",
-          "version": "1.0.2"
+          "revision": "f6a06486d32cadec6db7d66d492968fbc8090de6",
+          "version": "1.2.0"
+        }
+      },
+      {
+        "package": "MobilePassiveData",
+        "repositoryURL": "https://github.com/Sage-Bionetworks/MobilePassiveData-SDK.git",
+        "state": {
+          "branch": null,
+          "revision": "6b8b0205e226ec25960f1369db107665334e0d34",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "MotorControl",
+        "repositoryURL": "https://github.com/Sage-Bionetworks/MotorControl-iOS.git",
+        "state": {
+          "branch": null,
+          "revision": "d171cd07daed23a23f4d0c3342cc5a7b2847c02d",
+          "version": "3.1.0"
         }
       },
       {
@@ -33,8 +60,8 @@
         "repositoryURL": "https://github.com/Sage-Bionetworks/SageResearch.git",
         "state": {
           "branch": null,
-          "revision": "74ee6725f666668a1be8e80d1300543ee4cdf1c6",
-          "version": "3.17.1"
+          "revision": "e4991336cbf6012bc7e870fe311a67de54aa3de6",
+          "version": "4.1.3"
         }
       }
     ]

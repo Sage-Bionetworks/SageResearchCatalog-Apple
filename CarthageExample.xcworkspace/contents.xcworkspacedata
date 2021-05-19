@@ -13,4 +13,10 @@
    <FileRef
       location = "group:Carthage/Checkouts/Bridge-iOS-SDK/BridgeSDK.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/MotorControl-iOS/MotorControl/MotorControl.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/CardiorespiratoryFitness-iOS/CardiorespiratoryFitness/CardiorespiratoryFitness.xcodeproj">
+   </FileRef>
 </Workspace>
